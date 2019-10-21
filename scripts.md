@@ -1,0 +1,4 @@
+"scripts": {
+    "start": "webpack-dev-server --config webpack.dev.js --open",
+    "build": "webpack --config webpack.prod.js"
+}
