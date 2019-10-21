@@ -10,15 +10,15 @@ var HtmlWebpackPlugin = require("html-webpack-plugin");
 module.exports = merge(common, {
   mode: "production",
   output: {
-    filename: "[name].[contentHash].bundle.js",
-    path: path.resolve(__dirname, "dist")
+    filename: "[name].[contentHash].min.js",
+    path: path.resolve(__dirname, "public")
   },
   optimization: {
     minimizer: [
       new OptimizeCssAssetsPlugin(),
       new TerserPlugin(),
       new HtmlWebpackPlugin({
-        template: "./src/template.html",
+        index: "./src/views/index.html",
         minify: {
           removeAttributeQuotes: true,
           collapseWhitespace: true,

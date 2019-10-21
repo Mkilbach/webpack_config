@@ -1,7 +1,6 @@
 module.exports = {
   entry: {
-    main: "./src/index.js",
-    vendor: "./src/vendor.js"
+    main: "./src/js/index.js"
   },
   module: {
     rules: [
