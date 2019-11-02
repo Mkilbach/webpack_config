@@ -1,15 +1,1 @@
-"css-loader",
-"file-loader",
-"html-loader",
-"html-webpack-plugin",
-"mini-css-extract-plugin",
-"node-sass": "^4.11.0",
-"optimize-css-assets-webpack-plugin": "^5.0.1",
-"popper.js": "^1.14.7",
-"sass-loader": "^7.1.0",
-"style-loader": "^0.23.1",
-"webpack": "^4.29.6",
-"webpack-cli": "^3.2.3",
-"webpack-dev-server": "^3.2.1",
-"webpack-merge": "^4.2.1",
-"clean-webpack-plugin": "^2.0.0"
+css-loader file-loader html-loader html-webpack-plugin mini-css-extract-plugin node-sass optimize-css-assets-webpack-plugin popper.js sass-loader style-loader webpack webpack-cli webpack-dev-server webpack-merge clean-webpack-plugin
